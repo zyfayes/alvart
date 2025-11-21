@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alvart</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.26.5/babel.min.js"></script>
+  <script type="importmap">
+  {
+    "imports": {
+      "react-dom/client": "https://aistudiocdn.com/react-dom@^19.2.0/client",
+      "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+      "react-dom": "https://aistudiocdn.com/react-dom@^19.2.0",
+      "react/": "https://aistudiocdn.com/react@^19.2.0/",
+      "react": "https://aistudiocdn.com/react@^19.2.0",
+      "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0"
+    }
+  }
+  </script>
+  <style>
+    body {
+      background-color: #e8e6e1;
+      margin: 0;
+    }
+  </style>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel" data-type="module" data-presets="typescript,react" src="./index.tsx"></script>
+</body>
+</html>
